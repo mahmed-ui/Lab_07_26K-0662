@@ -16,6 +16,7 @@ int main(){
     }
 
     for(i=0;i<2;i++){
+        printf("\nClass %d Students total\n", i+1);
         for(j=0;j<3;j++){
             for(k=0;k<3;k++){
                 summarks+=academicRecords[i][j][k];
@@ -35,7 +36,7 @@ int main(){
                 highStudent=j+1;
             }
         }
-        printf("Top Performer of Class %d: Student %d with %d marks\n",i+1,highStudent,highestMarks);
+        printf("\nTop Performer of Class %d: Student %d with %d marks\n",i+1,highStudent,highestMarks);
     }
 
     int highOverallMarks=totalMarks[0][0];
@@ -50,7 +51,7 @@ int main(){
             }
         }
     }
-    printf("Overall topper is Student %d from Class %d \n",overallHighStudent,overallHighClass);
+    printf("\nOverall topper is Student %d from Class %d \n",overallHighStudent,overallHighClass);
 
     return 0;
 
