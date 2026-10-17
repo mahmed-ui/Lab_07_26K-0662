@@ -19,6 +19,9 @@ int main(){
             totalSalesPerProduct[j]+=salesdata[i][j];
         }
     }
+
+    printf("\n-----------------------FINAL SUMMARY-----------------------\n");
+
     printf("\nTotal Sales per Salesman:\n");
     for(i=0;i<4;i++){
         printf("Salesman %d: %d\n",i+1,totalSalesPerSalesman[i]);
@@ -53,7 +56,6 @@ int main(){
         
     }
 
-    printf("-----FINAL SUMMARY-----\n");
+    return 0;
     
-
 }
