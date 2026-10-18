@@ -66,4 +66,6 @@ lab-07-nd-arrays-nested-loops/
 ## Course Info
 
 - **Lab:** 07 – Introduction to N-Dimensional Arrays with Nested Loops
+- **Author:** Mohammad Ahmed
+- **Roll#** 26K-0662
 - **Section:** BCS-1D
